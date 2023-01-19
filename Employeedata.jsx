@@ -2,93 +2,79 @@ import * as React from 'react';
 import './style.css';
 
 
-export default function Employeedata(){
+export default function Employeedata()
+ {
+  
+  function btnaddemp() {}
+ 
+  function btnedit(){}
+  function btndelete(){}
+    function btnPrev(){}
+    function btnNext(){}
 
-  return(
+  
+  return (
+    
     <>
-    <div class="main" id="main">
-        <button onclick="btnaddemp()" type="button" id="btnadd">Add Employee</button>
+      <div className="main" id="main">
+        <button onClick={btnaddemp} type="button" id="btnadd">
+          Add Employee
+        </button>
         <table>
+          <thead>
+            <tr>
+              <th>FirstName</th>
+              <th>LastName</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Gender</th>
+              <th>Department</th>
+              <th>Skills</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
 
-            <thead>
-                <tr>
-                    <th>FirstName</th>
-                    <th>LastName</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                    <th>Gender</th>
-                    <th>Department</th>
-                    <th>Skills</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-
-                    
-                    <td><button type="button" name="btnedit" class="btnedit" onclick="btnedit()">Edit</button>
-                        <button type="button" name="btndelete" class="btndelete" onclick="btndetete()">Delete</button>
-                    </td>
-                </tr>
-                <tr>
-                <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-
-                    <td><button type="button" name="btnedit" class="btnedit" onclick="btnedit()">Edit</button>
-                        <button type="button" name="btndelete" class="btndelete" onclick="btndetete()">Delete</button>
-                    </td>
-                </tr>
-                <tr>
-                <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-
-                    <td><button type="button" name="btnedit" class="btnedit" onclick="btnedit()">Edit</button>
-                        <button type="button" name="btndelete" class="btndelete" onclick="btndetete()">Delete</button>
-                    </td>
-                </tr>
-             
-
-
-
-            </tbody>
-
-
+              <td>
+                <button
+                  type="button"
+                  name="btnedit"
+                  className="btnedit"
+                  onClick={btnedit}
+                >
+                  Edit
+                </button>
+                <button
+                  type="button"
+                  name="btndelete"
+                  className="btndelete"
+                  onClick={btndelete}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+           
+          </tbody>
         </table>
 
-        <div class="btngrp">
-            <button onclick="btnprev()" type="button" id="btnprev">Previous</button>
-            <button onclick="btnnext()" type="button" id="btnnext">Next</button>
-
+        <div className="btngrp">
+          <button onClick={btnPrev} type="button" id="btnprev">
+            Previous
+          </button>
+          <button onClick={btnNext} type="button" id="btnnext">
+            Next
+          </button>
         </div>
-
-
-    </div>
-    
-    
-    
-    
-    
+      </div>
     </>
-
-
-    )
-
-
+  );
 }
