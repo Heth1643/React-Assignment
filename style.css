@@ -1,0 +1,291 @@
+h1,
+p {
+  font-family: Lato;
+}
+* {
+  margin: 0px;
+}
+.search {
+  background-color: black;
+  color: white;
+}
+
+.search-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  height: 8vh;
+  margin-left: 10px;
+}
+
+#btnsearch {
+  color: black;
+  background-color: darkorange;
+  height: 25px;
+  margin-right: 40px;
+}
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  height: 5vh;
+}
+
+.footer-div {
+  margin-top: 8px;
+}
+
+.main {
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 135px;
+}
+
+.btngrp {
+  justify-content: space-between;
+  display: flex;
+  float: inherit;
+  margin-right: 350px;
+}
+
+table {
+  border: 2px solid;
+  height: 133px;
+  width: 100vh;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid;
+}
+
+#btnadd {
+  background-color: rgb(227, 241, 227);
+  color: black;
+
+  border-radius: 10px 10px;
+  height: 35px;
+  width: 129px;
+  margin-left: 146px;
+  margin-bottom: 4px;
+  border-color: green;
+
+  margin-right: 27px;
+}
+
+#btnadd:hover {
+  background-color: green;
+  color: black;
+
+  border-radius: 10px 10px;
+  height: 35px;
+  width: 129px;
+  margin-left: 146px;
+  margin-bottom: 4px;
+  border-color: black;
+}
+
+.btndelete {
+  background-color: rgb(227, 241, 227);
+  color: black;
+
+  border-radius: 10px 10px;
+  border-color: green;
+  height: 34px;
+  width: 51px;
+
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.btndelete:hover {
+  background-color: red;
+  color: black;
+
+  border-radius: 10px 10px;
+
+  border-color: black;
+  height: 34px;
+  width: 51px;
+
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.btnedit:hover {
+  background-color: skyblue;
+  color: black;
+
+  border-radius: 10px 10px;
+
+  border-color: black;
+  height: 34px;
+  width: 51px;
+
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.btnedit {
+  background-color: rgb(227, 241, 227);
+  color: black;
+
+  border-radius: 10px 10px;
+  border-color: green;
+  height: 34px;
+  width: 51px;
+
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#btnprev {
+  background-color: rgb(227, 241, 227);
+  color: black;
+
+  border-radius: 10px 10px;
+  height: 35px;
+  width: 129px;
+
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-color: green;
+}
+
+#btnprev:hover {
+  background-color: green;
+  color: black;
+
+  border-radius: 10px 10px;
+  height: 35px;
+  width: 129px;
+
+  margin-bottom: 4px;
+  border-color: black;
+}
+
+#btnnext {
+  background-color: rgb(227, 241, 227);
+  color: black;
+
+  border-radius: 10px 10px;
+  height: 35px;
+  width: 129px;
+  margin-top: 4px;
+  margin-right: 55px;
+  border-color: green;
+}
+
+#btnnext:hover {
+  background-color: green;
+  color: black;
+
+  border-radius: 10px 10px;
+  height: 35px;
+  width: 129px;
+
+  margin-bottom: 4px;
+  border-color: black;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type='email'],
+[type='number'] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-left: 40px;
+}
+
+input[type='text'],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.main2 {
+  margin-top: 10px;
+
+  justify-content: center;
+
+  display: none;
+  border: 1px solid black;
+  padding: 30px;
+   
+  position: absolute;
+  align-content: center;
+  margin-bottom: 20px;
+  margin-left: 271px;
+}
+
+#about {
+  display: -webkit-box;
+}
+
+input {
+  margin-left: 10px;
+}
+
+#btnsub {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #6b94ec;
+  /* Green */
+}
+
+#btnsub:hover {
+  height: 30px;
+  width: 150px;
+  background-color: blue;
+  color: white;
+}
+
+#btnback {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  /* Green */
+}
+
+#btnback:hover {
+  height: 30px;
+  width: 150px;
+
+  background-color: green;
+  /* Green */
+  color: white;
+}
