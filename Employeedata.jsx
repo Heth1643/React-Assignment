@@ -5,6 +5,35 @@ import './style.css';
 export default function Employeedata()
  {
   
+  
+   const data=[
+    {firstname:"Hetul",
+     lastname:"thakor",
+     email:"hetul@gmail.com",
+     phone:9601582103,
+     gender:"Male",
+     Department:".NET",
+     Skiils:"Backend Developer"
+  },
+  {firstname:"Hetul",
+  lastname:"thakor",
+  email:"hetul@gmail.com",
+  phone:9601582103,
+  gender:"Male",
+  Department:".NET",
+  Skiils:"Backend Developer"
+},
+{firstname:"Hetul",
+lastname:"thakor",
+email:"hetul@gmail.com",
+phone:9601582103,
+gender:"Male",
+Department:".NET",
+Skiils:"Backend Developer"
+}
+  ];
+
+
   function btnaddemp() {}
  
   function btnedit(){}
