@@ -2,7 +2,7 @@ import * as React from 'react';
 import './style.css';
 
 
-export default function Employeedata()
+export default function Employeedata({formDisplay})
  {
   
   
@@ -34,7 +34,10 @@ Skiils:"Backend Developer"
   ];
 
 
-  function btnaddemp() {}
+  function btnaddemp(){
+    formDisplay();
+  } 
+  
  
   function btnedit(){}
   function btndelete(){}

@@ -208,7 +208,7 @@ td {
 
 label {
   padding: 12px 12px 12px 0;
-  display: inline-block;
+ 
 }
 
 input[type='email'],
@@ -236,11 +236,10 @@ textarea {
 
   justify-content: center;
 
-  display: none;
+
   border: 1px solid black;
   padding: 30px;
    
-  position: absolute;
   align-content: center;
   margin-bottom: 20px;
   margin-left: 271px;

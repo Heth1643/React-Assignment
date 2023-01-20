@@ -2,16 +2,15 @@ import * as React from 'react';
 import './style.css';
 import './main.js';
 
-export default function Addemployee() {
+export default function Addemployee({backbuttonClick,submitButtonClick}) {
   
   function Back() {
-   document.getElementById('main').style.display = 'block';
-    document.getElementById('main2').style.display = 'none';
+    backbuttonClick()
   }
 
   
   function submit(){
-
+    submitButtonClick()
   }
 
   return (
