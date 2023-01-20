@@ -4,6 +4,9 @@ import './main.js';
 
 export default function Addemployee({backbuttonClick,submitButtonClick}) {
   
+
+  const [name,setname]=React.useState('');
+  const [lname,setlname]=React.useState('');
   function Back() {
     backbuttonClick()
   }
